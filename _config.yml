@@ -16,15 +16,15 @@ theme: jekyll-agency
 url    : "https://goodnews724.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+title: "호재의 포트폴리오"
+email: "hojae724@gmail.com" #this is also the email contact forms will go to
+description: "데이터 분석가 호재의 포트폴리오 블로그입니다."
+author: "김호재"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "ko-KR" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
