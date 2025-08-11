@@ -31,9 +31,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2' # Should match .ruby-version if it exists
-          bundler-cache: true # runs 'bundle install' and caches installed gems
-          cache-version: 1 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.2'
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3 --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
