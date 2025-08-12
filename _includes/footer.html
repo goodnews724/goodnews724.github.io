@@ -70,6 +70,33 @@
     {% endif %}
   </div>
 </footer>
+<script>
+  const compactLineHeightCheckbox = document.getElementById(
+    "compact-line-height"
+  );
+  const body = document.body;
+
+  const setCompactLineHeight = (isCompact) => {
+    if (isCompact) {
+      body.classList.add("compact-line-height");
+    } else {
+      body.classList.remove("compact-line-height");
+    }
+  };
+
+  const storedPreference = localStorage.getItem("compact-line-height");
+  if (storedPreference) {
+    const isCompact = storedPreference === "true";
+    compactLineHeightCheckbox.checked = isCompact;
+    setCompactLineHeight(isCompact);
+  }
+
+  compactLineHeightCheckbox.addEventListener("change", () => {
+    const isCompact = compactLineHeightCheckbox.checked;
+    setCompactLineHeight(isCompact);
+    localStorage.setItem("compact-line-height", isCompact);
+  });
+</script>
 {% if page.layout == "page" %}
 <script>
   fixPageShort();

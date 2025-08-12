@@ -8,6 +8,11 @@ p {
   line-height: 1.75;
 }
 
+body.compact-line-height p {
+  line-height: 1.5;
+}
+
+
 a {
   color: $primary;
   &:hover {
