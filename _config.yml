@@ -13,13 +13,13 @@
 
 theme: jekyll-agency
 
-url    : "https://goodnews724.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: "호재의 포트폴리오"
-email: "hojae724@gmail.com" #this is also the email contact forms will go to
-description: "데이터 분석가 호재의 포트폴리오 블로그입니다."
-author: "김호재"
+title: "블로그 제목"
+email: "your-email@example.com"
+description: "블로그 설명"
+author: "이름"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
