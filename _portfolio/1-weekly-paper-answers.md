@@ -1,16 +1,16 @@
 ---
 title: 위클리 페이퍼 훑어보기
 subtitle: 2025-08-12
-image: assets/img/portfolio/04-thumbnail.jpg
+image: ../../../img/sunglasses_tomato.png
 alt: Weekly Paper
 caption:
   title: 위클리 페이퍼 훑어보기
   subtitle: Tech
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
+  thumbnail: ../../../img/sunglasses_tomato.png
 ---
 # 위클리 페이퍼 후루꾸 답안
 
-## #1. 데이터 분석 시작하기
+### #1. 데이터 분석 시작하기
 
 **클래스와 인스턴스에 대해 설명해주세요.**
 
