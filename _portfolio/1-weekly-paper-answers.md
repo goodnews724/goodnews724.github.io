@@ -2,7 +2,7 @@
 layout: portfolio
 title: 위클리 페이퍼 훑어보기
 subtitle: 2025-08-12
-image: ../assets/img/portfolio/sunglasses_tomato.png
+image: ../../assets/img/portfolio/sunglasses_tomato.png
 alt: Weekly Paper
 caption:
   title: 위클리 페이퍼 훑어보기
