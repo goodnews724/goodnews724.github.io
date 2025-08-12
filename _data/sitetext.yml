@@ -49,11 +49,40 @@ ko-KR:
         alt:
     end: "이야기는 <br> 계속됩니다!"
 
-  about:
-    title: "소개"
-    text: "나에 대한 이야기"
-    body: "이곳에 자신을 소개하는 글을 작성해보세요. **마크다운** 문법을 지원합니다."
+    about:
     section: about
+    title: "About Me"
+    text: "저에 대한 소개입니다."
+    body: "이곳에 자기소개를 작성해주세요. 마크다운 문법을 사용하여 **강조**나 [링크](https://example.com)를 추가할 수 있습니다. <br><br> GitHub: [Your GitHub](https://github.com) <br> Email: your-email@example.com"
+    timeline:
+      title: "Our History"
+      text: "Lorem ipsum dolor sit amet consectetur."
+      initial: "Be part<br>of our<br>story!"
+      events:
+        - title: "Our Humble Beginnings"
+          image: "assets/img/timeline/1.jpg"
+          alt:
+          date: "2009-2011"
+          align: "left"
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        - title: "An Agency is Born"
+          image: "assets/img/timeline/2.jpg"
+          alt:
+          date: "March 2011"
+          align: "right"
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        - title: "Transition to Full Service"
+          image: "assets/img/timeline/3.jpg"
+          alt:
+          date: "December 2012"
+          align: "left"
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        - title: "Phase Two Expansion"
+          image: "assets/img/timeline/4.jpg"
+          alt:
+          date: "July 2014"
+          align: "right"
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
   team:
     title: "나의 팀"
