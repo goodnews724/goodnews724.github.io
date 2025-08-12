@@ -1,12 +1,12 @@
 ---
 title: 위클리 페이퍼 훑어보기
 subtitle: 2025-08-12
-image: ../../../img/sunglasses_tomato.png
+image: ../assets/img/portfolio/sunglasses_tomato.png
 alt: Weekly Paper
 caption:
   title: 위클리 페이퍼 훑어보기
   subtitle: Tech
-  thumbnail: ../../../img/sunglasses_tomato.png
+  thumbnail: ../assets/img/portfolio/sunglasses_tomato.png
 ---
 # 위클리 페이퍼 후루꾸 답안
 
